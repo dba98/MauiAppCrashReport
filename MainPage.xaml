@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppCrashReport.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+                
+            <StackLayout Margin="100, 40, 100, 20">
+                <Frame Margin="0, 0, 0, 20"
+                       Padding="0" CornerRadius="20" HeightRequest="40">
+                    <Entry Margin="5,0">
+                           
+                    </Entry>
+                </Frame>
+                    
+                <Frame Margin="0, 0, 0, 20"
+                       Padding="0" CornerRadius="20" HeightRequest="40">
+                    <Entry Margin="5,0" />
+                </Frame>
+            </StackLayout>
+                
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
